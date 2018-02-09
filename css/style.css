@@ -482,7 +482,7 @@ p {
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
 #home {
-  background: url('../images/hero1.jpeg');
+  background: url('../images/hero11.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1158,7 +1158,7 @@ ul.portfolio-image li .desc{
 }
 
 .facebook{
-  background: #969696;
+  background: #f8f5f5;
   /*padding: 20px 0;*/
 }
 .facebook a:after{
@@ -1184,6 +1184,10 @@ ul.portfolio-image li .desc{
   color: #636363;
 }
 
+
+.btn{
+  background:#2f2f2f;
+}
 
 /*----------------------------------------- 8) Component --------------------------------------------------*/
 /*---------------- a. Skills ----------------*/
