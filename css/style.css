@@ -110,7 +110,7 @@ img { max-width: 100%; }
   position: absolute;
   bottom: -20px;
   height: 3px;
-  background: #DEDEDE;
+  background: #da1313;
   width: 28px;
   left: 0;
 }
@@ -200,6 +200,9 @@ img { max-width: 100%; }
   transition: all 0.3s;
   width: 45px;
   display: block;
+}
+.navbar-brand{
+  
 }
 .opacity-nav {
   opacity: 0.8;
@@ -538,13 +541,14 @@ p {
 
 #intro p {
   width: 80%;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 48px auto;
   color: #fff;
+  font-size: 48px;
 }
 
 @media (min-width: 1024px) {
   #intro p {
-    width: 60%;
+    width: 100%;
   }
 }
 
@@ -605,13 +609,13 @@ p {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  color: #fff;
-  background: #181616;
+  color: #da1313;
+  background: #fff;
 }
 
 #intro .btn-get-started:hover {
   background: #fff;
-  color: #d21818;
+  color: #da1313;
 }
 
 /*----- typed effect ---*/
@@ -709,7 +713,7 @@ ul.portfolio-image li .desc{
   font-family: 'Glyphter';
   font-size: 30px;
   line-height: 20px;
-  color: #818181;
+  color: #1a1616;
   margin: 0;
 }
 .head-sm {
@@ -1232,6 +1236,11 @@ ul.portfolio-image li .desc{
 
 .btn{
   background:#2f2f2f;
+  color:#fff;
+}
+
+.btn:hover {
+  color: #fff;
 }
 
 /*----------------------------------------- 8) Component --------------------------------------------------*/
